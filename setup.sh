@@ -12,6 +12,9 @@ BASEDIR=$(dirname "${SCRIPT}")
 
 mkdir -p $BASEDIR/logs
 
+# Delete downloaded stuff and re-setup
+rm -rf acmeair-driver acmeair-nodejs apache-jmeter-4.0 graalvm-asyncg-ae asyncg-ae.tar.gz  apache-jmeter-4.0.tgz
+
 # Make sure you have git, mongodb, curl installed and Java 8 in your JAVA_HOME
 if [ -z "$JAVA_HOME" ]; then
   JAVA=` which java `
