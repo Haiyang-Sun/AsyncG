@@ -48,7 +48,7 @@ AsyncG can be used to debug arbitrary Node.js files with the following command:
 ./script/runAsyncG.sh <file.js>
 ```
 
-Running the command above will generate logs as output, which can be used to visualuze the Async Graph using the graphs generator tool available at our website: <https://eventloopgraph.github.io/>.
+Running the command above will generate logs as output, which can be used to visualuze the Async Graph using the graphs generator tool available at our website: <https://asyncgraph.github.io/>.
 
 The async graphs generator source code is publicly available at <https://github.com/asyncgraph/asyncgraph.github.io>.
 
