@@ -10,7 +10,7 @@ export AsyncGHome="${SCRIPTDIR}/../graalvm-asyncg-ae"
 # This 'AsyncVerbose' option will add a bit more information, e.g.,:
 #   the invocation location of some nodes, enabling some corner cases bug detection.
 # With these extra information, the performance can be a bit slower.
-export AsyncVerbose=true
+export AsyncGVerbose=true
 
 AnalysisLoader=$AsyncGHome/loader.js
 
