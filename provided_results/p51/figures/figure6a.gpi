@@ -1,0 +1,12 @@
+set terminal postscript eps color font 'Helvetica,18' size 6,2;
+
+set datafile separator ' ';
+set key autotitle columnheader horizontal right
+
+#set xrange [0:500];
+set ylabel 'Number of Requests / Second';
+set xlabel 'Time (Second)';
+
+plot "figure6a.csv" u 1:2 w linespoints title 'No AsyncG' lt -1 pi -1 pt 5, \
+"" u 1:3 w linespoints title 'AsyncG without Promise' lt -1 pi -1 pt 4 ps 1, \
+"" u 1:4 w linespoints title 'AsyncG with Promise' lt -1 pi -1 pt 3 ps 1, \
