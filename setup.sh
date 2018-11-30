@@ -17,6 +17,7 @@ rm -rf acmeair-driver acmeair-nodejs apache-jmeter-4.0 graalvm-asyncg-ae asyncg-
 
 # Make sure you have git, mongodb, curl installed and Java 8 in your JAVA_HOME
 if [ -z "$JAVA_HOME" ]; then
+  echo "Warning: no JAVA_HOME is set, the default java will be used!"
   JAVA=` which java `
 else
   JAVA=$JAVA_HOME/bin/java
@@ -65,6 +66,9 @@ fi
 
 cd acmeair-nodejs;
 $AsyncGHome/bin/npm install
+echo ""
+echo "[Note]: the warnings above about npm packages result from the original AcmeAir benchmark."
+
 $AsyncGHome/bin/node ./app.js > log &
 pid=$!
 echo "Running the AcmeAir app for the first time PID: ${pid}"
