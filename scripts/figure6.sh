@@ -1,10 +1,14 @@
 #!/bin/bash
 
-if [ -z "$JAVA_HOME" ]; then
-  JAVA=` which java `
-else
-  JAVA=$JAVA_HOME/bin/java
-fi
+
+SCRIPT=$(readlink -f "$0")
+SCRIPTDIR=$(dirname "${SCRIPT}")
+HOMEDIR=$SCRIPTDIR/..
+AsyncGHome="${SCRIPTDIR}/../graalvm-asyncg-ae"
+
+# For simplicity, we use the Java 8 provided by the GraalVM, you can also use your own Java 8
+export JAVA_HOME=$AsyncGHome
+JAVA=$JAVA_HOME/bin/java
 
 echo Java used: $JAVA
 
@@ -15,11 +19,6 @@ if [ $version != 8 ]; then
 else
   echo "Java version == 8"
 fi
-
-SCRIPT=$(readlink -f "$0")
-SCRIPTDIR=$(dirname "${SCRIPT}")
-HOMEDIR=$SCRIPTDIR/..
-AsyncGHome="${SCRIPTDIR}/../graalvm-asyncg-ae"
 
 # collecting the baseline throughput running without asyncg
 $SCRIPTDIR/baseline.sh
