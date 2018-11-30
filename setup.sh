@@ -7,6 +7,17 @@
 # 
 # Setup AsyncG
 #
+
+echo "The snapshot of the AcmeAir benchmark on which this artifact is based on contains some vulnerabilities in the dependent NPM modules. The benchmark is developed by a third-party, and not by us, so we decided to import it \"as is\" to ensure that the benchmark can be executed unmodified. However, this might expose the benchmarking machine to some vulnerabilities"
+while true; do
+    read -p "press Y to continue or N to exit: " yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
 SCRIPT=$(readlink -f "$0")
 BASEDIR=$(dirname "${SCRIPT}")
 
@@ -15,13 +26,20 @@ mkdir -p $BASEDIR/logs
 # Delete downloaded stuff and re-setup
 rm -rf acmeair-driver acmeair-nodejs apache-jmeter-4.0 graalvm-asyncg-ae asyncg-ae.tar.gz  apache-jmeter-4.0.tgz
 
-# Make sure you have git, mongodb, curl installed and Java 8 in your JAVA_HOME
-if [ -z "$JAVA_HOME" ]; then
-  echo "Warning: no JAVA_HOME is set, the default java will be used!"
-  JAVA=` which java `
-else
-  JAVA=$JAVA_HOME/bin/java
+# Download the customized GraalVM with AsyncG
+if [ ! -d "${BASEDIR}/graalvm-asyncg-ae" ]; then
+  wget http://h620.inf.usi.ch/asyncg/asyncg-ae.tar.gz
+  tar xf asyncg-ae.tar.gz
 fi
+
+AsyncGHome="${BASEDIR}/graalvm-asyncg-ae"
+
+
+# Make sure you have git, mongodb, curl installed and Java 8 in your JAVA_HOME
+
+# For simplicity, we use the Java 8 provided by the GraalVM, you can also use your own Java 8
+export JAVA_HOME=$AsyncGHome
+JAVA=$JAVA_HOME/bin/java
 
 echo Java used: $JAVA
 
@@ -32,14 +50,6 @@ if [ $version != 8 ]; then
 else
   echo "Java version == 8"
 fi
-
-# Download the customized GraalVM with AsyncG
-if [ ! -d "${BASEDIR}/graalvm-asyncg-ae" ]; then
-  wget http://h620.inf.usi.ch/asyncg/asyncg-ae.tar.gz
-  tar xf asyncg-ae.tar.gz
-fi
-
-AsyncGHome="${BASEDIR}/graalvm-asyncg-ae"
 
 ./scripts/runExamples.sh
 
