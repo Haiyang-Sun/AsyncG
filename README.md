@@ -1,22 +1,21 @@
 # AsyncG
 A debugger for asynchronous executions in Node.js
 
-## Dependencies:
-AsyncG requires the following commands to be installed in your system:
+## Benchmark Dependencies:
+To run the AcmeAir benchmark, the following tools are required:
 
 * git
 * curl
-* java (version 8)
 * gnuplot
 * mongodb
 
 With Ubuntu (LTS versions 16.04 and 18.04) the above dependencies can be installed with the following command:
 
 ```console
-sudo apt-get install git curl mongodb openjdk-8-jdk gnuplot
+sudo apt-get install git curl mongodb gnuplot
 ```
 
-Note that packages ```openjdk-8-jdk```, ```mongodb``` and ```gnuplot``` are included in the ```universe``` repository, which is enabled by default in Ubuntu Desktop but not in Ubuntu Server. ```universe``` repository can be enabled with the following commands:
+Note that packages ```mongodb``` and ```gnuplot``` are included in the ```universe``` repository, which is enabled by default in Ubuntu Desktop but not in Ubuntu Server. ```universe``` repository can be enabled with the following commands:
 
 ```console 
 sudo add-apt-repository universe
@@ -25,8 +24,7 @@ sudo apt-get update
 ```
 
 ## Installation:
-Note that if you do not already have the Java JDK version 8 installed or if ```JAVA_HOME``` is not set, the AsyncG installation will not be successful.
-AsyncG provides an installation script which downloads the binary files together with the ```AcmeAir``` application and the performance profiler tool ```JMeter```, that are used as experimental setting.
+AsyncG provides an installation script which downloads the binary files together with the ```AcmeAir``` application and its driver program using ```JMeter``` for benchmarking.
 The installation script can be run with the command:
 ```console
 ./setup.sh
