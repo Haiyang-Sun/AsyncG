@@ -38,7 +38,7 @@ Provided experiments runs the ```AcmeAir``` application and collect performance 
 ./scripts/figure6.sh
 ```
 
-The experiments usually require about 1 hour to complete, once completed the performance results are saved as ```eps``` files in the ```figures``` folder.
+The experiments usually require about half an hour to complete, once completed the performance results are saved as ```eps``` files in the ```figures``` folder.
 
 
 ## How to debug custom Node.js code with AsyncG:
