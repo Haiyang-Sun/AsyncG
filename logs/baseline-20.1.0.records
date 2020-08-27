@@ -1,0 +1,48 @@
+Creating summariser <summary>
+Created the tree successfully using /home/haiyang/AsyncG/scripts/../acmeair-driver/acmeair-jmeter/scripts/AcmeAir.jmx
+Starting the test @ Thu Aug 27 07:56:40 UTC 2020 (1598515000853)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+usePureIDs property was set.
+summary +    323 in 00:00:19 =   17.0/s Avg:    26 Min:    11 Max:   309 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +   3234 in 00:00:30 =  107.8/s Avg:     8 Min:     4 Max:    63 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =   3557 in 00:00:49 =   72.6/s Avg:    10 Min:     4 Max:   309 Err:     0 (0.00%)
+summary +   5723 in 00:00:30 =  190.8/s Avg:     5 Min:     3 Max:    35 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =   9280 in 00:01:19 =  117.5/s Avg:     7 Min:     3 Max:   309 Err:     0 (0.00%)
+summary +   7753 in 00:00:30 =  258.4/s Avg:     3 Min:     2 Max:    30 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  17033 in 00:01:49 =  156.3/s Avg:     5 Min:     2 Max:   309 Err:     0 (0.00%)
+summary +   8870 in 00:00:30 =  295.7/s Avg:     3 Min:     2 Max:    38 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  25903 in 00:02:19 =  186.3/s Avg:     4 Min:     2 Max:   309 Err:     0 (0.00%)
+summary +  10454 in 00:00:30 =  348.5/s Avg:     2 Min:     2 Max:    16 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  36357 in 00:02:49 =  215.1/s Avg:     4 Min:     2 Max:   309 Err:     0 (0.00%)
+summary +  11279 in 00:00:30 =  376.0/s Avg:     2 Min:     2 Max:    73 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  47636 in 00:03:19 =  239.4/s Avg:     3 Min:     2 Max:   309 Err:     0 (0.00%)
+summary +  12530 in 00:00:30 =  417.7/s Avg:     2 Min:     1 Max:    22 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  60166 in 00:03:49 =  262.7/s Avg:     3 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  12753 in 00:00:30 =  425.1/s Avg:     2 Min:     1 Max:    20 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  72919 in 00:04:19 =  281.5/s Avg:     3 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  13663 in 00:00:30 =  455.4/s Avg:     2 Min:     1 Max:    26 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =  86582 in 00:04:49 =  299.6/s Avg:     3 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  14791 in 00:00:30 =  493.0/s Avg:     1 Min:     1 Max:    15 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 101373 in 00:05:19 =  317.8/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  16696 in 00:00:30 =  556.6/s Avg:     1 Min:     1 Max:    13 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 118069 in 00:05:49 =  338.3/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  16912 in 00:00:30 =  563.7/s Avg:     1 Min:     1 Max:    24 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 134981 in 00:06:19 =  356.1/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  17459 in 00:00:30 =  582.0/s Avg:     1 Min:     1 Max:    40 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 152440 in 00:06:49 =  372.7/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  18483 in 00:00:30 =  616.1/s Avg:     1 Min:     1 Max:    17 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 170923 in 00:07:19 =  389.3/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  19227 in 00:00:30 =  640.9/s Avg:     1 Min:     1 Max:    21 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 190150 in 00:07:49 =  405.4/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  19802 in 00:00:30 =  660.1/s Avg:     1 Min:     1 Max:    43 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 209952 in 00:08:19 =  420.7/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  20399 in 00:00:30 =  679.9/s Avg:     1 Min:     1 Max:    27 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 230351 in 00:08:49 =  435.4/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  19924 in 00:00:30 =  664.2/s Avg:     1 Min:     1 Max:    15 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 250275 in 00:09:19 =  447.7/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  19829 in 00:00:30 =  660.9/s Avg:     1 Min:     1 Max:    18 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary = 270104 in 00:09:49 =  458.6/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+summary +  14182 in 00:00:21 =  673.2/s Avg:     1 Min:     1 Max:    26 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary = 284286 in 00:10:10 =  466.0/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+Tidying up ...    @ Thu Aug 27 08:06:51 UTC 2020 (1598515611067)
+... end of run

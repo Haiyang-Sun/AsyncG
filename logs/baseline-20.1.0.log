@@ -1,0 +1,103 @@
+2020-08-27 07:56:40,159 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-08-27 07:56:40,173 INFO o.a.j.JMeter: Loading user properties from: /home/haiyang/AsyncG/apache-jmeter-4.0/bin/user.properties
+2020-08-27 07:56:40,174 INFO o.a.j.JMeter: Loading system properties from: /home/haiyang/AsyncG/apache-jmeter-4.0/bin/system.properties
+2020-08-27 07:56:40,174 INFO o.a.j.JMeter: Setting System property: usePureIDs=true
+2020-08-27 07:56:40,179 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2020-08-27 07:56:40,179 INFO o.a.j.JMeter: Version 4.0 r1823414
+2020-08-27 07:56:40,179 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM GraalVM CE 20.1.0
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: os.name=Linux
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: os.arch=amd64
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: os.version=4.15.0-112-generic
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-08-27 07:56:40,180 INFO o.a.j.JMeter: Available Processors =16
+2020-08-27 07:56:40,184 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-08-27 07:56:40,185 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-08-27 07:56:40,185 INFO o.a.j.JMeter: JMeterHome=/home/haiyang/AsyncG/apache-jmeter-4.0
+2020-08-27 07:56:40,185 INFO o.a.j.JMeter: user.dir  =/home/haiyang/AsyncG/acmeair-nodejs
+2020-08-27 07:56:40,185 INFO o.a.j.JMeter: PWD       =/home/haiyang/AsyncG/acmeair-nodejs
+2020-08-27 07:56:40,185 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: b620 FullName: b620
+2020-08-27 07:56:40,188 INFO o.a.j.s.FileServer: Default base='/home/haiyang/AsyncG/acmeair-nodejs'
+2020-08-27 07:56:40,193 INFO o.a.j.s.FileServer: Set new base='/home/haiyang/AsyncG/scripts/../acmeair-driver/acmeair-jmeter/scripts'
+2020-08-27 07:56:40,331 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-08-27 07:56:40,343 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-08-27 07:56:40,347 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2020-08-27 07:56:40,355 INFO o.a.j.s.SaveService: Loading file: /home/haiyang/AsyncG/scripts/../acmeair-driver/acmeair-jmeter/scripts/AcmeAir.jmx
+2020-08-27 07:56:40,496 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-08-27 07:56:40,509 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-27 07:56:40,509 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-27 07:56:40,509 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-27 07:56:40,509 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-08-27 07:56:40,509 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-08-27 07:56:40,509 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-08-27 07:56:40,849 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-08-27 07:56:40,855 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-08-27 07:56:40,861 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-08-27 07:56:40,861 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-08-27 07:56:40,867 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-08-27 07:56:40,867 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-08-27 07:56:40,998 INFO o.a.j.JMeter: Running test (1598515000997)
+2020-08-27 07:56:41,059 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-08-27 07:56:41,060 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-08-27 07:56:41,060 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-08-27 07:56:41,060 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=30 perThread=30000.0 delayedStart=false
+2020-08-27 07:56:41,071 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-08-27 07:56:41,071 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-08-27 07:56:51,062 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-08-27 07:56:51,069 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@118858816
+2020-08-27 07:56:51,090 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = b620
+2020-08-27 07:56:51,094 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-08-27 07:56:51,103 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-08-27 07:56:51,103 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-08-27 07:56:51,103 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-08-27 07:56:51,103 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-08-27 07:56:51,440 INFO o.a.j.s.FileServer: Stored: Airports2.csv
+2020-08-27 07:56:51,441 INFO o.a.j.s.FileServer: Stored: Airports.csv
+2020-08-27 07:57:00,004 INFO o.a.j.r.Summariser: summary +    323 in 00:00:19 =   17.0/s Avg:    26 Min:    11 Max:   309 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 07:57:30,012 INFO o.a.j.r.Summariser: summary +   3234 in 00:00:30 =  107.8/s Avg:     8 Min:     4 Max:    63 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 07:57:30,013 INFO o.a.j.r.Summariser: summary =   3557 in 00:00:49 =   72.6/s Avg:    10 Min:     4 Max:   309 Err:     0 (0.00%)
+2020-08-27 07:58:00,003 INFO o.a.j.r.Summariser: summary +   5723 in 00:00:30 =  190.8/s Avg:     5 Min:     3 Max:    35 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 07:58:00,004 INFO o.a.j.r.Summariser: summary =   9280 in 00:01:19 =  117.5/s Avg:     7 Min:     3 Max:   309 Err:     0 (0.00%)
+2020-08-27 07:58:30,003 INFO o.a.j.r.Summariser: summary +   7753 in 00:00:30 =  258.4/s Avg:     3 Min:     2 Max:    30 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 07:58:30,003 INFO o.a.j.r.Summariser: summary =  17033 in 00:01:49 =  156.3/s Avg:     5 Min:     2 Max:   309 Err:     0 (0.00%)
+2020-08-27 07:59:00,003 INFO o.a.j.r.Summariser: summary +   8870 in 00:00:30 =  295.7/s Avg:     3 Min:     2 Max:    38 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 07:59:00,003 INFO o.a.j.r.Summariser: summary =  25903 in 00:02:19 =  186.3/s Avg:     4 Min:     2 Max:   309 Err:     0 (0.00%)
+2020-08-27 07:59:30,000 INFO o.a.j.r.Summariser: summary +  10454 in 00:00:30 =  348.5/s Avg:     2 Min:     2 Max:    16 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 07:59:30,001 INFO o.a.j.r.Summariser: summary =  36357 in 00:02:49 =  215.1/s Avg:     4 Min:     2 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:00:00,002 INFO o.a.j.r.Summariser: summary +  11279 in 00:00:30 =  376.0/s Avg:     2 Min:     2 Max:    73 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:00:00,003 INFO o.a.j.r.Summariser: summary =  47636 in 00:03:19 =  239.4/s Avg:     3 Min:     2 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:00:30,001 INFO o.a.j.r.Summariser: summary +  12530 in 00:00:30 =  417.7/s Avg:     2 Min:     1 Max:    22 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:00:30,001 INFO o.a.j.r.Summariser: summary =  60166 in 00:03:49 =  262.7/s Avg:     3 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:01:00,001 INFO o.a.j.r.Summariser: summary +  12753 in 00:00:30 =  425.1/s Avg:     2 Min:     1 Max:    20 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:01:00,002 INFO o.a.j.r.Summariser: summary =  72919 in 00:04:19 =  281.5/s Avg:     3 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:01:30,002 INFO o.a.j.r.Summariser: summary +  13663 in 00:00:30 =  455.4/s Avg:     2 Min:     1 Max:    26 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:01:30,002 INFO o.a.j.r.Summariser: summary =  86582 in 00:04:49 =  299.6/s Avg:     3 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:02:00,003 INFO o.a.j.r.Summariser: summary +  14791 in 00:00:30 =  493.0/s Avg:     1 Min:     1 Max:    15 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:02:00,003 INFO o.a.j.r.Summariser: summary = 101373 in 00:05:19 =  317.8/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:02:30,001 INFO o.a.j.r.Summariser: summary +  16696 in 00:00:30 =  556.6/s Avg:     1 Min:     1 Max:    13 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:02:30,002 INFO o.a.j.r.Summariser: summary = 118069 in 00:05:49 =  338.3/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:03:00,002 INFO o.a.j.r.Summariser: summary +  16912 in 00:00:30 =  563.7/s Avg:     1 Min:     1 Max:    24 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:03:00,003 INFO o.a.j.r.Summariser: summary = 134981 in 00:06:19 =  356.1/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:03:30,001 INFO o.a.j.r.Summariser: summary +  17459 in 00:00:30 =  582.0/s Avg:     1 Min:     1 Max:    40 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:03:30,001 INFO o.a.j.r.Summariser: summary = 152440 in 00:06:49 =  372.7/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:04:00,001 INFO o.a.j.r.Summariser: summary +  18483 in 00:00:30 =  616.1/s Avg:     1 Min:     1 Max:    17 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:04:00,001 INFO o.a.j.r.Summariser: summary = 170923 in 00:07:19 =  389.3/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:04:30,001 INFO o.a.j.r.Summariser: summary +  19227 in 00:00:30 =  640.9/s Avg:     1 Min:     1 Max:    21 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:04:30,002 INFO o.a.j.r.Summariser: summary = 190150 in 00:07:49 =  405.4/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:05:00,000 INFO o.a.j.r.Summariser: summary +  19802 in 00:00:30 =  660.1/s Avg:     1 Min:     1 Max:    43 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:05:00,001 INFO o.a.j.r.Summariser: summary = 209952 in 00:08:19 =  420.7/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:05:30,001 INFO o.a.j.r.Summariser: summary +  20399 in 00:00:30 =  679.9/s Avg:     1 Min:     1 Max:    27 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:05:30,002 INFO o.a.j.r.Summariser: summary = 230351 in 00:08:49 =  435.4/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:06:00,001 INFO o.a.j.r.Summariser: summary +  19924 in 00:00:30 =  664.2/s Avg:     1 Min:     1 Max:    15 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:06:00,002 INFO o.a.j.r.Summariser: summary = 250275 in 00:09:19 =  447.7/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:06:30,001 INFO o.a.j.r.Summariser: summary +  19829 in 00:00:30 =  660.9/s Avg:     1 Min:     1 Max:    18 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-08-27 08:06:30,002 INFO o.a.j.r.Summariser: summary = 270104 in 00:09:49 =  458.6/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)
+2020-08-27 08:06:51,062 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2020-08-27 08:06:51,062 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-08-27 08:06:51,063 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-08-27 08:06:51,063 INFO o.a.j.s.FileServer: Close: Airports2.csv
+2020-08-27 08:06:51,064 INFO o.a.j.s.FileServer: Close: hosts.csv@118858816
+2020-08-27 08:06:51,065 INFO o.a.j.s.FileServer: Close: Airports.csv
+2020-08-27 08:06:51,067 INFO o.a.j.r.Summariser: summary +  14182 in 00:00:21 =  673.2/s Avg:     1 Min:     1 Max:    26 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2020-08-27 08:06:51,067 INFO o.a.j.r.Summariser: summary = 284286 in 00:10:10 =  466.0/s Avg:     2 Min:     1 Max:   309 Err:     0 (0.00%)

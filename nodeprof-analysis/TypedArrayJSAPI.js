@@ -86,8 +86,8 @@ analysis.new = {
 
 setTimeout(()=>{
     nodeprofAdapter.addAnalysis(analysis);
-}, 60*20*1000);
+}, (30+60*12)*1000);
 
 setTimeout(()=>{
     nodeprofAdapter.disposeAnalysis();
-}, 2*60*20*1000);
+}, (30+2*60*12)*1000);
